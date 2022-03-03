@@ -1,0 +1,9 @@
+! 追蹤
+||t.holmesmind.com^
+
+! 新聞
+||ad.ettoday.net^
+||ad*.nownews.com^
+
+! Yahoo! 新聞廣告
+||fc.yahoo.com^
