@@ -10,4 +10,4 @@
 
 subhd.tv##div.bg-white.clearfix.py-4:nth-child(5)
 
-subhd.tv##div.fixed-bottom:first-child > a > img.w-100
+subhd.tv##div.fixed-bottom:first-child>a>img.w-100
