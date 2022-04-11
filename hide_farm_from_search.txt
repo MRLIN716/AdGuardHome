@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: hide farm content from google
+! Title: hide farm from search google
 ! Version: 2021.0309.02
 ! ----------------------------------------------------------------------
 google.*##div.g:has(div[data-hveid] a[href*="FutaHost"])
