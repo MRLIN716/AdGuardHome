@@ -1,6 +1,5 @@
-! FutaHosts
-! FutaFilter Host
-! URL: <https://github.com/FutaGuard/FutaFilter>
+! Hosts
+! Filter Host
 ! 2022.03.18
 ! --------------------------------------------------
 ! 白清單
