@@ -1,5 +1,5 @@
-! Hosts
-! Filter Host
+[Adblock Plus]
+! Title: Filter Host
 ! 2022.03.18
 ! --------------------------------------------------
 ! 白清單
