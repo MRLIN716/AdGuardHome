@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: FutaFilter nofarm
+! Title: Filter nofarm
 ! 2021.0916.01
 ! --------------------------------------------------
 ||366service.com^
