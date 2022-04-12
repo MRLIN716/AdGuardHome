@@ -19,7 +19,6 @@
 >#### [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
 --------------------------------------------------------------------------------------------------------------------------------
 ### 隱私
->#### [Anti-Facebook List](https://fanboy.co.nz/fanboy-antifacebook.txt)
 >#### [EasyPrivacy](https://easylist-downloads.adblockplus.org/fanboy-social.txt)
 --------------------------------------------------------------------------------------------------------------------------------
 ### 社群小工具
