@@ -18,9 +18,6 @@
 >#### [EasyList](https://easylist.to/easylist/easylist.txt)
 >#### [StevenBlack/hosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
 --------------------------------------------------------------------------------------------------------------------------------
-### 隱私
->#### [EasyPrivacy](https://easylist-downloads.adblockplus.org/fanboy-social.txt)
---------------------------------------------------------------------------------------------------------------------------------
 ### 社群小工具
 >#### [Fanboy's Social Blocking List](https://easylist-downloads.adblockplus.org/fanboy-social.txt)
 >#### [Social media filter](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt)
