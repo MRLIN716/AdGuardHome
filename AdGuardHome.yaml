@@ -3,7 +3,7 @@ bind_port: 3000
 beta_bind_port: 0
 users:
 - name: mrlin
-  password: $2a$10$UhNodIZoZ9wbcinJOZU4welIDHPa9OgsOZ0s4dFeZTig8KQmtOw1O
+  password: password
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
