@@ -1,0 +1,450 @@
+bind_host: 0.0.0.0
+bind_port: 3000
+beta_bind_port: 0
+users:
+- name: mrlin
+  password: $2a$10$UhNodIZoZ9wbcinJOZU4welIDHPa9OgsOZ0s4dFeZTig8KQmtOw1O
+auth_attempts: 5
+block_auth_min: 15
+http_proxy: ""
+language: ""
+debug_pprof: false
+web_session_ttl: 720
+dns:
+  bind_hosts:
+  - 0.0.0.0
+  port: 53
+  statistics_interval: 7
+  querylog_enabled: true
+  querylog_file_enabled: true
+  querylog_interval: 6h
+  querylog_size_memory: 1000
+  anonymize_client_ip: false
+  protection_enabled: true
+  blocking_mode: default
+  blocking_ipv4: ""
+  blocking_ipv6: ""
+  blocked_response_ttl: 10
+  parental_block_host: family-block.dns.adguard.com
+  safebrowsing_block_host: standard-block.dns.adguard.com
+  ratelimit: 20
+  ratelimit_whitelist: []
+  refuse_any: true
+  upstream_dns:
+  - https://dns.google/dns-query
+  - https://dns.cloudflare.com/dns-query
+  - '[/esunbank.com.tw/]https://dns.google/dns-query'
+  - '[/bankofamerica.com/]https://dns.google/dns-query'
+  - '[/jable.tv/]https://dns.google/dns-query'
+  - '[/www.99kubo.tv/]https://dns.google/dns-query'
+  - '[/www.cth.org.tw/]https://dns.google/dns-query'
+  - '[/www.taiwanmobile.tw/]https://dns.google/dns-query'
+  upstream_dns_file: ""
+  bootstrap_dns:
+  - 101.102.103.104
+  - 9.9.9.10
+  - 2620:fe::10
+  all_servers: false
+  fastest_addr: false
+  fastest_timeout: 1s
+  allowed_clients: []
+  disallowed_clients: []
+  blocked_hosts:
+  - version.bind
+  - id.server
+  - hostname.bind
+  trusted_proxies:
+  - 127.0.0.0/8
+  - ::1/128
+  cache_size: 4194304
+  cache_ttl_min: 0
+  cache_ttl_max: 0
+  cache_optimistic: false
+  bogus_nxdomain: []
+  aaaa_disabled: false
+  enable_dnssec: false
+  edns_client_subnet: false
+  max_goroutines: 300
+  ipset: []
+  filtering_enabled: true
+  filters_update_interval: 0
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  safebrowsing_cache_size: 1048576
+  safesearch_cache_size: 1048576
+  parental_cache_size: 1048576
+  cache_time: 30
+  rewrites: []
+  blocked_services: []
+  upstream_timeout: 10s
+  local_domain_name: lan
+  resolve_clients: true
+  use_private_ptr_resolvers: true
+  local_ptr_upstreams: []
+tls:
+  enabled: true
+  server_name: linad.hopto.org
+  force_https: true
+  port_https: 7163
+  port_dns_over_tls: 853
+  port_dns_over_quic: 784
+  port_dnscrypt: 0
+  dnscrypt_config_file: ""
+  allow_unencrypted_doh: false
+  strict_sni_check: false
+  certificate_chain: ""
+  private_key: ""
+  certificate_path: /var/snap/adguard-home/current/fullchain.pem
+  private_key_path: /var/snap/adguard-home/current/privkey.pem
+filters:
+- enabled: true
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  name: AdGuard DNS filter
+  id: 1
+- enabled: true
+  url: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+  name: Spam404
+  id: 1628180696
+- enabled: true
+  url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+  name: Annoyances filter
+  id: 1628180698
+- enabled: true
+  url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+  name: Social media filter
+  id: 1628180701
+- enabled: true
+  url: https://easylist.to/easylist/easylist.txt
+  name: EasyList
+  id: 1628180705
+- enabled: true
+  url: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+  name: Fanboy's Annoyance List
+  id: 1628180706
+- enabled: true
+  url: https://easylist-downloads.adblockplus.org/fanboy-social.txt
+  name: Fanboy's Social Blocking List
+  id: 1628180708
+- enabled: true
+  url: https://www.i-dont-care-about-cookies.eu/abp/
+  name: I don't care about cookies
+  id: 1628180709
+- enabled: true
+  url: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+  name: AdBlock Warning Remove List
+  id: 1628180710
+- enabled: true
+  url: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+  name: EasyPrivacy
+  id: 1628180712
+- enabled: true
+  url: https://someonewhocares.org/hosts/zero/hosts
+  name: Dan Pollock's List
+  id: 1628180713
+- enabled: true
+  url: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+  name: WindowsSpyBlocker
+  id: 1628180714
+- enabled: true
+  url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+  name: Peter Lowe's List
+  id: 1628180715
+- enabled: true
+  url: https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
+  name: The Big List of Hacked Malware Web
+  id: 1628180716
+- enabled: true
+  url: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+  name: NoCoin Filter List
+  id: 1646149826
+- enabled: true
+  url: https://adaway.org/hosts.txt
+  name: AdAway Default Blocklist
+  id: 1646149827
+- enabled: true
+  url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
+  name: Game Console Adblock List
+  id: 1646149828
+- enabled: true
+  url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
+  name: Dandelion Sprout's Anti-Malware List
+  id: 1646149829
+- enabled: true
+  url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/filter.txt
+  name: Filter
+  id: 1646399733
+- enabled: true
+  url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/hide_farm_from_search.txt
+  name: hide farm content from google
+  id: 1646399734
+- enabled: true
+  url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/hosts.txt
+  name: Filter Host
+  id: 1646399735
+- enabled: true
+  url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/nofarm_hosts.txt
+  name: Filter nofarm
+  id: 1646399736
+- enabled: true
+  url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/removeparam.txt
+  name: Filter removeparam
+  id: 1646399737
+- enabled: true
+  url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+  name: StevenBlack/hosts
+  id: 1646399738
+whitelist_filters: []
+user_rules: []
+dhcp:
+  enabled: false
+  interface_name: ""
+  dhcpv4:
+    gateway_ip: ""
+    subnet_mask: ""
+    range_start: ""
+    range_end: ""
+    lease_duration: 86400
+    icmp_timeout_msec: 1000
+    options: []
+  dhcpv6:
+    range_start: ""
+    lease_duration: 86400
+    ra_slaac_only: false
+    ra_allow_slaac: false
+clients:
+- name: 中華電信
+  tags: []
+  ids:
+  - 1.160.0.0/12
+  - 1.34.0.0/15
+  - 103.25.236.0/22
+  - 111.240.0.0/12
+  - 111.70.0.0/15
+  - 111.80.0.0/14
+  - 114.136.0.0/15
+  - 114.24.0.0/14
+  - 114.30.32.0/20
+  - 114.32.0.0/12
+  - 116.59.0.0/16
+  - 118.160.0.0/13
+  - 118.168.0.0/14
+  - 122.116.0.0/15
+  - 122.118.0.0/16
+  - 122.120.0.0/13
+  - 125.224.0.0/13
+  - 125.232.0.0/15
+  - 168.95.0.0/16
+  - 175.111.192.0/18
+  - 175.41.48.0/20
+  - 202.39.128.0/17
+  - 203.160.224.0/19
+  - 203.66.0.0/16
+  - 203.69.0.0/16
+  - 203.74.0.0/16
+  - 203.75.0.0/16
+  - 203.78.176.0/20
+  - 210.241.224.0/19
+  - 210.242.0.0/17
+  - 210.242.128.0/17
+  - 210.59.128.0/17
+  - 210.61.0.0/16
+  - 210.62.248.0/21
+  - 210.65.0.0/16
+  - 210.71.128.0/17
+  - 211.20.0.0/16
+  - 211.21.0.0/16
+  - 211.22.0.0/16
+  - 211.23.0.0/16
+  - 211.72.0.0/17
+  - 211.72.128.0/17
+  - 211.75.0.0/17
+  - 211.75.128.0/17
+  - 211.79.32.0/20
+  - 218.160.0.0/14
+  - 218.164.0.0/15
+  - 218.166.0.0/15
+  - 218.168.0.0/13
+  - 220.128.0.0/18
+  - 223.136.0.0/13
+  - 36.224.0.0/12
+  - 42.64.0.0/12
+  - 43.255.92.0/22
+  - 59.112.0.0/13
+  - 59.120.0.0/14
+  - 59.124.0.0/14
+  - 60.248.0.0/16
+  - 60.249.0.0/16
+  - 60.250.0.0/15
+  - 61.216.0.0/16
+  - 61.217.0.0/16
+  - 61.218.0.0/15
+  - 61.220.0.0/14
+  - 61.224.0.0/14
+  - 61.228.0.0/14
+  - 202.39.0.0/18
+  - 202.39.64.0/19
+  - 220.128.128.0/17
+  - 220.128.64.0/18
+  - 220.129.0.0/16
+  - 220.130.0.0/15
+  - 220.132.0.0/14
+  - 220.136.0.0/13
+  - 221.120.0.0/18
+  - 221.120.64.0/19
+  blocked_services: []
+  upstreams: []
+  use_global_settings: true
+  filtering_enabled: false
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  use_global_blocked_services: true
+- name: 亞太電信
+  tags: []
+  ids:
+  - 210.203.0.0/17
+  - 222.251.0.0/17
+  - 210.202.128.0/17
+  - 103.36.116.0/22
+  - 223.22.0.0/15
+  - 210.58.0.0/16
+  - 218.35.0.0/16
+  - 210.85.0.0/16
+  - 210.63.224.0/19
+  - 210.202.64.0/18
+  - 222.250.0.0/16
+  - 218.187.0.0/16
+  - 203.207.32.0/20
+  - 210.202.0.0/19
+  - 60.244.128.0/17
+  - 202.178.128.0/17
+  - 43.240.104.0/22
+  - 218.34.0.0/16
+  - 124.219.0.0/17
+  - 210.63.192.0/19
+  - 222.157.0.0/16
+  - 218.184.0.0/16
+  - 203.201.32.0/20
+  - 210.201.0.0/16
+  - 60.244.0.0/17
+  - 101.136.0.0/14
+  - 124.218.0.0/16
+  - 210.202.48.0/21
+  - 222.156.0.0/16
+  - 210.200.0.0/16
+  - 203.79.128.0/17
+  - 210.202.32.0/20
+  - 219.91.0.0/17
+  blocked_services: []
+  upstreams: []
+  use_global_settings: true
+  filtering_enabled: false
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  use_global_blocked_services: true
+- name: 台灣之星
+  tags: []
+  ids:
+  - 1.200.0.0/16
+  - 103.239.60.0/22
+  - 103.5.32.0/22
+  - 110.50.128.0/18
+  - 112.78.64.0/19
+  - 116.89.128.0/20
+  - 180.217.0.0/16
+  - 202.144.208.0/20
+  - 43.255.180.0/22
+  - 43.255.88.0/22
+  blocked_services: []
+  upstreams: []
+  use_global_settings: true
+  filtering_enabled: false
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  use_global_blocked_services: true
+- name: 台灣大大
+  tags: []
+  ids:
+  - 124.29.128.0/19
+  - 101.8.0.0/13
+  - 180.204.0.0/14
+  - 43.240.108.0/22
+  - 124.29.160.0/19
+  - 103.2.216.0/22
+  - 123.99.0.0/18
+  - 115.80.0.0/14
+  - 117.19.0.0/16
+  - 123.99.0.0/19
+  blocked_services: []
+  upstreams: []
+  use_global_settings: true
+  filtering_enabled: false
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  use_global_blocked_services: true
+- name: 大新街
+  tags: []
+  ids:
+  - 220.134.248.51
+  blocked_services: []
+  upstreams: []
+  use_global_settings: true
+  filtering_enabled: false
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  use_global_blocked_services: true
+- name: 玫瑰城
+  tags: []
+  ids:
+  - 36.227.218.157
+  blocked_services: []
+  upstreams: []
+  use_global_settings: true
+  filtering_enabled: false
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  use_global_blocked_services: true
+- name: 遠傳電信
+  tags: []
+  ids:
+  - 61.20.0.0/16
+  - 27.52.0.0/15
+  - 211.77.0.0/18
+  - 211.77.128.0/17
+  - 211.77.64.0/18
+  - 211.73.128.0/19
+  - 39.8.0.0/13
+  - 114.140.0.0/16
+  - 210.241.192.0/19
+  - 27.51.0.0/16
+  - 118.231.0.0/16
+  - 27.240.0.0/13
+  - 110.24.0.0/13
+  - 106.64.0.0/15
+  - 103.122.148.0/22
+  blocked_services: []
+  upstreams: []
+  use_global_settings: true
+  filtering_enabled: false
+  parental_enabled: false
+  safesearch_enabled: false
+  safebrowsing_enabled: false
+  use_global_blocked_services: true
+log_compress: false
+log_localtime: false
+log_max_backups: 0
+log_max_size: 100
+log_max_age: 3
+log_file: ""
+verbose: false
+os:
+  group: ""
+  user: ""
+  rlimit_nofile: 0
+schema_version: 12
