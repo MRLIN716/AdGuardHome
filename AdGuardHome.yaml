@@ -99,101 +99,93 @@ tls:
   private_key_path: /var/snap/adguard-home/current/privkey.pem
 filters:
 - enabled: true
-  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-  name: AdGuard DNS filter
-  id: 1
-- enabled: true
-  url: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
-  name: Spam404
-  id: 1628180696
-- enabled: true
-  url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
-  name: Annoyances filter
-  id: 1628180698
-- enabled: true
-  url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
-  name: Social media filter
-  id: 1628180701
-- enabled: true
-  url: https://easylist.to/easylist/easylist.txt
-  name: EasyList
-  id: 1628180705
-- enabled: true
-  url: https://secure.fanboy.co.nz/fanboy-annoyance.txt
-  name: Fanboy's Annoyance List
-  id: 1628180706
-- enabled: true
-  url: https://easylist-downloads.adblockplus.org/fanboy-social.txt
-  name: Fanboy's Social Blocking List
-  id: 1628180708
-- enabled: true
-  url: https://www.i-dont-care-about-cookies.eu/abp/
-  name: I don't care about cookies
-  id: 1628180709
-- enabled: true
-  url: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-  name: AdBlock Warning Remove List
-  id: 1628180710
-- enabled: true
-  url: https://easylist-downloads.adblockplus.org/easyprivacy.txt
-  name: EasyPrivacy
-  id: 1628180712
-- enabled: true
-  url: https://someonewhocares.org/hosts/zero/hosts
-  name: Dan Pollock's List
-  id: 1628180713
-- enabled: true
-  url: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
-  name: WindowsSpyBlocker
-  id: 1628180714
-- enabled: true
-  url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
-  name: Peter Lowe's List
-  id: 1628180715
-- enabled: true
-  url: https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
-  name: The Big List of Hacked Malware Web
-  id: 1628180716
-- enabled: true
-  url: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
-  name: NoCoin Filter List
-  id: 1646149826
-- enabled: true
-  url: https://adaway.org/hosts.txt
-  name: AdAway Default Blocklist
-  id: 1646149827
-- enabled: true
-  url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
-  name: Game Console Adblock List
-  id: 1646149828
-- enabled: true
-  url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
-  name: Dandelion Sprout's Anti-Malware List
-  id: 1646149829
-- enabled: true
   url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/filter.txt
   name: Filter
-  id: 1646399733
-- enabled: true
-  url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/hide_farm_from_search.txt
-  name: hide farm content from google
-  id: 1646399734
+  id: 1
 - enabled: true
   url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/hosts.txt
   name: Filter Host
-  id: 1646399735
+  id: 2
 - enabled: true
   url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/nofarm_hosts.txt
   name: Filter nofarm
-  id: 1646399736
+  id: 3
 - enabled: true
   url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/removeparam.txt
   name: Filter removeparam
-  id: 1646399737
+  id: 4
+- enabled: true
+  url: https://raw.githubusercontent.com/asoka0716/asoka0716/main/hide_farm_from_search.txt
+  name: hide farm content from google
+  id: 5  
+- enabled: true
+  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  name: AdGuard DNS filter
+  id: 6
+- enabled: true
+  url: https://adaway.org/hosts.txt
+  name: AdAway Default Blocklist
+  id: 7
+- enabled: true
+  url: https://someonewhocares.org/hosts/zero/hosts
+  name: Dan Pollock's List
+  id: 8
+- enabled: true
+  url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext
+  name: Peter Lowe's List
+  id: 9
+- enabled: true
+  url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
+  name: Game Console Adblock List
+  id: 10
+- enabled: true
+  url: https://easylist.to/easylist/easylist.txt
+  name: EasyList
+  id: 11
 - enabled: true
   url: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
   name: StevenBlack/hosts
-  id: 1646399738
+  id: 12
+- enabled: true
+  url: https://easylist-downloads.adblockplus.org/fanboy-social.txt
+  name: Fanboy's Social Blocking List
+  id: 13
+- enabled: true
+  url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt
+  name: AdGuardFilters
+  id: 14
+- enabled: true
+  url: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+  name: Fanboy's Annoyance List
+  id: 15
+- enabled: true
+  url: https://www.i-dont-care-about-cookies.eu/abp/
+  name: I don't care about cookies
+  id: 16
+- enabled: true
+  url: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+  name: AdBlock Warning Remove List
+  id: 17
+- enabled: true
+  url: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+  name: Annoyances filter
+  id: 18
+- enabled: true
+  url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt
+  name: Dandelion Sprout's Anti-Malware List
+  id: 19
+- enabled: true
+  url: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+  name: NoCoin Filter List
+  id: 20
+- enabled: true
+  url: https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
+  name: The Big List of Hacked Malware Web
+  id: 21
+- enabled: true
+  url: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+  name: Spam404
+  id: 22
 whitelist_filters: []
 user_rules: []
 dhcp:
