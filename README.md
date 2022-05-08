@@ -5,7 +5,6 @@
 ### FutaGuard
 >#### [filter](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/filter.txt)
 >#### [hosts](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/hosts.txt)
->#### [nofarm hosts](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/nofarm_hosts.txt)
 >#### [removeparam](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/removeparam.txt)
 >#### [hide farm from search google](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/hide_farm_from_search.txt)
 --------------------------------------------------------------------------------------------------------------------------------
