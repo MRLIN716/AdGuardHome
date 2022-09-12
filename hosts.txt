@@ -13,6 +13,7 @@
 @@||s.yam.com^
 @@||buff.ly^
 @@||0rz.tw^
+@@||reurl.cc^
 
 ! 部落格
 @@||blog.udn.com^
@@ -57,6 +58,7 @@
 
 ! SEO 濫用
 ||pizzaseo.com^
+||wellview.com.tw^
 
 ! 漫畫人廣告
 ||videoapi.manhuaren.com^
@@ -69,6 +71,9 @@
 ||track-post-tw.com^
 ||track-post-gov-tw.info^
 ||brainstudy.info^
+||m2j1.ukwwx.com^
+||tw-redpacket-51.com^
+||gzjysd.com^
 
 ! 釣魚
 ||track-post-gov-tw.info^
@@ -98,6 +103,9 @@
 ! Weebly 詐騙
 ||netfllx.weebly.com^
 
+! 博彩詐騙
+||365rcs.com^
+
 ! 臉輸詐騙
 ||dented-sun-colt.glitch.me^
 
@@ -115,11 +123,92 @@
 ||onead.onevision.com.tw^
 ||ad-specs.guoshipartners.com^
 
+! 色情廣告
+||xdfaus.cn^
+
+! 假冒虛擬貨幣交易所網站詐騙
+||bianceance.com^
+
+! 假冒串流影音網站詐騙
+||netfltiw.com^
+
 ! 低卡廣告
 ||dad-api.dcard.tw^
 ||xlate.dcard.tw^
 
-||sun.advividnetwork.com^
+! 假冒政府網站詐騙
+||nigov.tw^
+||oovgov.com^
+||scyjdm.com.tw^
+||avogov.com^
+||hhigov.com^
+||oiigov.com^
+||rvegov.com^
+||jjhrt.net^
+||jscgov.com^
+||rie.vtrgov.com^
+||ynrgov.com^
+||eiegov.com^
+||tw1988.link^
+||trkwis.com^
+||qiigov.tv^
+||viigov.tv^
+||lttgov.tv^
+||sigov.top^
+||stugov.tv^
+||ycxgov.tv^
+||vtigov.com^
+||vstgov.com^
+||trrgov.com^
+||uvvgov.com^
+||htsgov.com^
+||oiigov.com^
+||fsngov.com^
+||ucxgov.com^
+||ymsgov.com^
+||nsrgov.com^
+||kragov.com^
+||cpggov.com^
+||iigov.xyz^
+||aogov.xyz^
+||wsflojgov.xyz^
+||wsfliagov.xyz^
+||wsflbwgov.xyz^
+||wsflikygov.xyz^
+||wsflojgov.xyz^
+||wsfliegov.xyz^
+||wsfltlwgov.xyz^
+||wsflzogov.xyz^
+||wsflbtgov.xyz^
+||twxgov.com^
+||twnjkgov.com^
+||twtwdfjgov.xyz^
+||twfgfjgov.shop^
+||aagov.shop^
+||drsgov.com^
+||welfareml.com^
+||twysgov.com^
+||celgov.com^
+||tiigov.tv^
+||twsgov.me^
+||twtla.me^
+||twmqn.me^
+||twvxp.me^
+||twspk.me^
+||twvrj.me^
+||ztcgov.me^
+||livekl.top^
+||jdcgov.com^
+||shukunjin.com^
+||vdegov.com^
+||yqbz2.xyz^
+||fucgov.tv^
+||twcdq.me^
+||fgov.shop^
+||tyfegov.site^
+||hfdewgov.site^
+||aogov.xyz^
+||hjxgov.com^
 
 ||taiwan-free-store.com^
 ||tw-track.com^
@@ -127,4 +216,20 @@
 ||viewty.xyz^
 ||tw-beaxfun.fun^
 ||investing-reads.com^
-||bianceance.com^
+||adsv.svc.litv.tv^
+||vatrack.hinet.net^
+||sun.advividnetwork.com^
+||ad.setn.com^
+||elads.kocpc.com.tw^
+||spotirfy-help-b49b36.ingress-bonde.ewp.live^
+||acefinance.asia^
+||waitwhy.buzz^
+||lesartisansdubio.fr^
+||mohwgovl.com^
+
+! regex 規則 簡訊詐騙
+/wsf.+gov\.xyz/
+/tw.{3}gov\.com/
+/tw\S{2}gov\.com/
+/[a-z]{3}gov\.(com|tv|me|top)/
+/butie\S+\.(shop|xyz)/
