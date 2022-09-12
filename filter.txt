@@ -244,3 +244,23 @@ blockcast.it##span[id="aaspan"]
 mobile01.com##div[id="idle_content"]
 ||www.mobile01.com/ajax/*/idlebox.php^
 ||attach2.mobile01.com/js/jquery-fancybox/jquery-fancybox-min.js^
+times.hinet.net#%#//scriptlet('prevent-setTimeout', 'idleOpen')
+times.hinet.net##div[id="popSetting"]
+times.hinet.net##div[class^="ADbn"]
+times.hinet.net##div[id="kayakWidgetright"]
+times.hinet.net##div[id="kayakWidgetnews"]
+||times.hinet.net/resources/css/idle.css*
+||player.svc.litv.tv/v3/ppnio.js^$domain=hinet.net
+||adsv.svc.litv.tv^
+||player.svc.litv.tv/v3/ppnif.html^$domain=hinet.net
+||vatrack.hinet.net^
+edh.tw$@$script[tag-content="showidletime"]
+edh.tw##iframe[id="_popIn_log"]
+edh.tw##span[id="fix-corner"]
+edh.tw##div[id="close-corner"]
+edh.tw##a[class="activity-wall"]
+edh.tw##div[class="adinarticle_div"]
+edh.tw$@$script[tag-content="timerIncrement"]
+edh.tw#%#//scriptlet('abort-current-inline-script', 'timerIncrement')
+||edh.tw/resources/ad/*^
+kikinote.net#%#//scriptlet('set-cookie-reload', 'isShowSociety', '1')
