@@ -1,12 +1,7 @@
 [Adblock Plus]
 ! Title: hide farm from search google
-! Version: 2021.0309.02
+! Version: 2022.11.29
 ! ----------------------------------------------------------------------
-google.*##div.g:has(div[data-hveid] a[href*="FutaHost"])
-google.*##div.g:has(div[data-hveid] a[href*="FutaFilter nofar"])
-google.*##div.g:has(div[data-hveid] a[href*="URL: <https://github.com/FutaGuard/FutaFilter"])
-google.*##div.g:has(div[data-hveid] a[href*="2021.0309.0"])
-google.*##div.g:has(div[data-hveid] a[href*="-------------------------------------------------"])
 google.*##div.g:has(div[data-hveid] a[href*="366service.com"])
 google.*##div.g:has(div[data-hveid] a[href*="7box.vip"])
 google.*##div.g:has(div[data-hveid] a[href*="apple01.cc"])
@@ -21,6 +16,7 @@ google.*##div.g:has(div[data-hveid] a[href*="coco01.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="coco01.me"])
 google.*##div.g:has(div[data-hveid] a[href*="coco01.net"])
 google.*##div.g:has(div[data-hveid] a[href*="coco01.today"])
+google.*##div.g:has(div[data-hveid] a[href*="cocoachina.com"])
 google.*##div.g:has(div[data-hveid] a[href*="cocomy.net"])
 google.*##div.g:has(div[data-hveid] a[href*="codebug.vip"])
 google.*##div.g:has(div[data-hveid] a[href*="codenong.com"])
@@ -47,7 +43,8 @@ google.*##div.g:has(div[data-hveid] a[href*="pressyourmum.com"])
 google.*##div.g:has(div[data-hveid] a[href*="ptt01.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="ptt01.tv"])
 google.*##div.g:has(div[data-hveid] a[href*="read01.com"])
-google.*##div.g:has(div[data-hveid] a[href*="setn.com"])
+google.*##div.g:has(div[data-hveid] a[href*="renaultpassonxperience.co"])
+google.*##div.g:has(div[data-hveid] a[href*="softwarebrother.com"])
 google.*##div.g:has(div[data-hveid] a[href*="stackoom.com"])
 google.*##div.g:has(div[data-hveid] a[href*="teepr.com"])
 google.*##div.g:has(div[data-hveid] a[href*="thinbug.com"])
