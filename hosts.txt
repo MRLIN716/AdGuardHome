@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: Filter Host
-! 2022.04.19
+! 2022.11.29
 ! --------------------------------------------------
 ! 白清單
 @@||ip2location.com^
@@ -74,10 +74,20 @@
 ||m2j1.ukwwx.com^
 ||tw-redpacket-51.com^
 ||gzjysd.com^
+! https://web.archive.org/web/20220928033642/https://bnfallshop.com/gqm6ua516d8c4a5
+||bnfallshop.com^
+
 
 ! 釣魚
 ||track-post-gov-tw.info^
 ||goodluckdog.space^
+||beats.com.tw^
+||buy.ssggddh.top^
+||m.tgh119.com^
+||bushearnpalm.live^
+||maincaptcha.top^
+||heavyhittervapes.com^
+||00000255123135324.ml^
 
 ! M$ Appcenter log
 ||in.appcenter.ms^
@@ -118,6 +128,7 @@
 ! 抽獎廣告
 ||weeklywinningluckydayextra.cyou^
 ||winning-coupon-theday-congrats.cyou^
+||ytu567.monster^
 
 ! 影音媒體廣告
 ||onead.onevision.com.tw^
@@ -131,10 +142,11 @@
 
 ! 假冒串流影音網站詐騙
 ||netfltiw.com^
+||fine-art.ge^
+||4stextiles.com^
 
 ! 低卡廣告
 ||dad-api.dcard.tw^
-||xlate.dcard.tw^
 
 ! 假冒政府網站詐騙
 ||nigov.tw^
@@ -226,6 +238,9 @@
 ||waitwhy.buzz^
 ||lesartisansdubio.fr^
 ||mohwgovl.com^
+
+||captchaless.top^
+||postchunghwa-tw.sytes.net^
 
 ! regex 規則 簡訊詐騙
 /wsf.+gov\.xyz/
