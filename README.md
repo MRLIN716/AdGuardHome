@@ -2,12 +2,6 @@
 
 ## 參考各大廣告封鎖清單
 --------------------------------------------------------------------------------------------------------------------------------
-### FutaGuard
->#### [filter](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/filter.txt)
->#### [hosts](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/hosts.txt)
->#### [removeparam](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/removeparam.txt)
->#### [hide farm from search google](https://raw.githubusercontent.com/MRLIN716/AdGuardHome/main/hide_farm_from_search.txt)
---------------------------------------------------------------------------------------------------------------------------------
 ### 廣告封鎖
 >#### [AdGuard DNS filter](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 >#### [AdAway default blocklist](https://adaway.org/hosts.txt)
