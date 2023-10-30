@@ -1,2 +1,3 @@
 ||ugewshop.online^
 @@||inline.app^
+@@||s.deepl.com^
