@@ -4,7 +4,7 @@
 @@||s.deepl.com^
 
 ! TWNIC RPZ 1.0
-||gimy.tv^$dnsrewrite=NOERROR;A;gimy.cp
+||gimy.tv^
 ||gimy.co^
 ||gimy.to^
 ||777tv.net^
