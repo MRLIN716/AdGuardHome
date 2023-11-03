@@ -2,6 +2,7 @@
 ||ugewshop.online^
 @@||inline.app^
 @@||s.deepl.com^
+@@||spotify.com^
 
 ! TWNIC RPZ 1.0
 ||gimy.tv^
