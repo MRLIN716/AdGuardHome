@@ -1,5 +1,6 @@
 ! 自建規則
 ||ugewshop.online^
+||goods-rare.com^
 @@||inline.app^
 @@||s.deepl.com^
 @@||spotify.com^
