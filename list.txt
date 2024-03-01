@@ -1,6 +1,8 @@
 ! 自建規則
 ||ugewshop.online^
 ||goods-rare.com^
+||avday.tv^
+||oiobbs.com^
 @@||inline.app^
 @@||s.deepl.com^
 @@||spotify.com^
