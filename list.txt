@@ -13,6 +13,17 @@
 ||ugewshop.online^
 ||xyz^
 ||ads.superad.cc^
+! 色情網
+||lauphooy.com^
+||lustpush.com^
+||dryfaxot.com^
+||lustgoddess.com^
+||lust-goddess-game.com^
+||omnarzoz.com^
+||sexynews.gamme.com.tw^
+! 開通網
 @@||inline.app^
 @@||s.deepl.com^
 @@||spotify.com^
+@@||bento.agoda.com^$important
+@@||searchapi.agoda.com^$important
